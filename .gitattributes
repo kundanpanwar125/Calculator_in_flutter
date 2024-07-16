@@ -1,12 +1,6 @@
-# Specify Dart as the primary language
-*.dart linguist-language=Dart
+# Set the language for Dart files in the lib folder
+lib/*.dart linguist-language=Dart
 
-# Ignore other languages
-*.js linguist-vendored
-*.html linguist-vendored
-*.css linguist-vendored
-*.json linguist-vendored
-*.md linguist-vendored
-*.lock linguist-vendored
-build/* linguist-vendored
-node_modules/* linguist-vendored
+# Ignore all other files and folders
+* linguist-vendored
+!lib/*.dart
