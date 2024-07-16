@@ -1,5 +1,5 @@
 # Set the language for Dart files in the lib folder
-lib/*.dart linguist-language=Dart
+*.dart linguist-language=Dart
 
 # Ignore all other files and folders
 * linguist-vendored
